@@ -9,5 +9,5 @@ app.get('/',(req,res)=>{
     res.send(message);
 });
 app.listen(port,()=>{
-    console.log("Microservice One is running");
+    console.log("Microservice is running");
 });
